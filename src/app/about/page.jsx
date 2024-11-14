@@ -12,9 +12,9 @@ import { StatList, StatListItem } from '@/components/StatList'
 import imageAngelaFisher from '@/images/team/angela-fisher.jpg'
 import imageBenjaminRussel from '@/images/team/benjamin-russel.jpg'
 import imageBlakeReid from '@/images/team/blake-reid.jpg'
-import imageChelseaHagon from '@/images/team/chelsea-hagon.jpg'
+import imageRickMingione from '@/images/team/rick-mingione.jpg'
 import imageDriesVincent from '@/images/team/dries-vincent.jpg'
-import imageEmmaDorsey from '@/images/team/emma-dorsey.jpg'
+import imageCoryLoftis from '@/images/team/cory-loftis.jpg'
 import imageJeffreyWebb from '@/images/team/jeffrey-webb.jpg'
 import imageKathrynMurphy from '@/images/team/kathryn-murphy.jpg'
 import imageLeonardKrasner from '@/images/team/leonard-krasner.jpg'
@@ -64,66 +64,66 @@ const team = [
         role: 'Founder / CEO',
         image: { src: imageDeanRobert },
       },
-      {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        image: { src: imageMichaelFoster },
-      },
-      {
-        name: 'Dries Vincent',
-        role: 'Partner & Business Relations',
-        image: { src: imageDriesVincent },
-      },
+      // {
+      //   name: 'Michael Foster',
+      //   role: 'Co-Founder / CTO',
+      //   image: { src: imageMichaelFoster },
+      // },
+      // {
+      //   name: 'Dries Vincent',
+      //   role: 'Partner & Business Relations',
+      //   image: { src: imageDriesVincent },
+      // },
     ],
   },
   {
     title: 'Team',
     people: [
       {
-        name: 'Chelsea Hagon',
-        role: 'Senior Developer',
-        image: { src: imageChelseaHagon },
+        name: 'Rick Mingione',
+        role: 'Software Developer / Technical Advisor',
+        image: { src: imageRickMingione },
       },
       {
-        name: 'Emma Dorsey',
-        role: 'Senior Designer',
-        image: { src: imageEmmaDorsey },
+        name: 'Cory Loftis',
+        role: 'Senior Designer / Product Manager',
+        image: { src: imageCoryLoftis },
       },
-      {
-        name: 'Leonard Krasner',
-        role: 'VP, User Experience',
-        image: { src: imageLeonardKrasner },
-      },
-      {
-        name: 'Blake Reid',
-        role: 'Junior Copywriter',
-        image: { src: imageBlakeReid },
-      },
-      {
-        name: 'Kathryn Murphy',
-        role: 'VP, Human Resources',
-        image: { src: imageKathrynMurphy },
-      },
-      {
-        name: 'Whitney Francis',
-        role: 'Content Specialist',
-        image: { src: imageWhitneyFrancis },
-      },
-      {
-        name: 'Jeffrey Webb',
-        role: 'Account Coordinator',
-        image: { src: imageJeffreyWebb },
-      },
-      {
-        name: 'Benjamin Russel',
-        role: 'Senior Developer',
-        image: { src: imageBenjaminRussel },
-      },
-      {
-        name: 'Angela Fisher',
-        role: 'Front-end Developer',
-        image: { src: imageAngelaFisher },
-      },
+      // {
+      //   name: 'Leonard Krasner',
+      //   role: 'VP, User Experience',
+      //   image: { src: imageLeonardKrasner },
+      // },
+      // {
+      //   name: 'Blake Reid',
+      //   role: 'Junior Copywriter',
+      //   image: { src: imageBlakeReid },
+      // },
+      // {
+      //   name: 'Kathryn Murphy',
+      //   role: 'VP, Human Resources',
+      //   image: { src: imageKathrynMurphy },
+      // },
+      // {
+      //   name: 'Whitney Francis',
+      //   role: 'Content Specialist',
+      //   image: { src: imageWhitneyFrancis },
+      // },
+      // {
+      //   name: 'Jeffrey Webb',
+      //   role: 'Account Coordinator',
+      //   image: { src: imageJeffreyWebb },
+      // },
+      // {
+      //   name: 'Benjamin Russel',
+      //   role: 'Senior Developer',
+      //   image: { src: imageBenjaminRussel },
+      // },
+      // {
+      //   name: 'Angela Fisher',
+      //   role: 'Front-end Developer',
+      //   image: { src: imageAngelaFisher },
+      // },
     ],
   },
 ]
@@ -217,7 +217,7 @@ export default async function About() {
         <StatList>
           <StatListItem value="2" label="Underpaid employees" />
           <StatListItem value="1" label="Placated clients" />
-          <StatListItem value="$0M" label="Funding" />
+          <StatListItem value="$0" label="Funding" />
         </StatList>
       </Container>
 
