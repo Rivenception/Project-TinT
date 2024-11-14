@@ -18,7 +18,7 @@ import imageEmmaDorsey from '@/images/team/emma-dorsey.jpg'
 import imageJeffreyWebb from '@/images/team/jeffrey-webb.jpg'
 import imageKathrynMurphy from '@/images/team/kathryn-murphy.jpg'
 import imageLeonardKrasner from '@/images/team/leonard-krasner.jpg'
-import imageDeanAlexander from '@/images/team/dean-alexander.jpg'
+import imageDeanRobert from '@/images/team/dean-robert-color.jpg'
 import imageMichaelFoster from '@/images/team/michael-foster.jpg'
 import imageWhitneyFrancis from '@/images/team/whitney-francis.jpg'
 import { loadArticles } from '@/lib/mdx'
@@ -60,9 +60,9 @@ const team = [
     title: 'Leadership',
     people: [
       {
-        name: 'L',
+        name: 'Dean Robert',
         role: 'Founder / CEO',
-        image: { src: imageDeanAlexander },
+        image: { src: imageDeanRobert },
       },
       {
         name: 'Michael Foster',
