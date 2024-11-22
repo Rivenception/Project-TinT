@@ -240,9 +240,9 @@ export default function Process() {
     <>
       <PageIntro eyebrow="Our process" title="How we work">
         <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+        We are dedicated to data-driven results and leveraging our resources to create meaningful, lasting change for our clients.
+        The primary way we do that is by a re-programing habits to align with values and building a strong foundation for
+        financial literacy.
         </p>
       </PageIntro>
 

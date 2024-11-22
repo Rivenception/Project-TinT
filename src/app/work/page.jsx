@@ -134,7 +134,7 @@ function Clients() {
 export const metadata = {
   title: 'Our Work',
   description:
-    'We believe in efficiency and maximizing our resources to provide the best value to our clients.',
+    'We believe in habitization and maximizing our resources to provide the best value to our clients.',
 }
 
 export default async function Work() {
@@ -144,12 +144,13 @@ export default async function Work() {
     <>
       <PageIntro
         eyebrow="Our work"
-        title="Proven solutions for real-world problems."
+        title="Proven solutions for transformative change."
       >
         <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+        We are dedicated to data-driven results and leveraging our resources to create meaningful, lasting change for our clients. 
+        By focusing on initiatives that build character and strengthen moral resolve, we empower formerly incarcerated 
+        individuals to establish habits that lead to sustainable success. Through proven programs and a commitment to 
+        resource optimization, we guide our clients toward a future of opportunity and transformation.
         </p>
       </PageIntro>
 
@@ -159,8 +160,11 @@ export default async function Work() {
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Mail Smirk', logo: logoMailSmirk }}
       >
-        We approached <em>Studio</em> because we loved their past work. They
-        delivered something remarkably similar in record time.
+        We approached <em>Project: Time in Trenches</em> because their structured
+        Financial Literacy program is desperately needed among the underserved
+        incarcerated population. There is a lot of focus on mental rehabilitation within
+        the Department of Corrections but very little to offer inidivudals regarding 
+        education on navigating life at the most fundamental level.
       </Testimonial>
 
       <Clients />
