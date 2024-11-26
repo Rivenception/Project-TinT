@@ -154,9 +154,9 @@ export default async function Work() {
         </p>
       </PageIntro>
 
-      <CaseStudies caseStudies={caseStudies} />
+      {/* <CaseStudies caseStudies={caseStudies} /> */}
 
-      <Testimonial
+      {/* <Testimonial
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Mail Smirk', logo: logoMailSmirk }}
       >
@@ -165,9 +165,9 @@ export default async function Work() {
         incarcerated population. There is a lot of focus on mental rehabilitation within
         the Department of Corrections but very little to offer inidivudals regarding 
         education on navigating life at the most fundamental level.
-      </Testimonial>
+      </Testimonial> */}
 
-      <Clients />
+      {/* <Clients /> */}
 
       <ContactSection />
     </>

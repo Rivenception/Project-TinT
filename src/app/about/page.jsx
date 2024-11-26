@@ -206,9 +206,9 @@ export default async function About() {
       </PageIntro>
       <Container className="mt-16">
         <StatList>
-          <StatListItem value="2" label="Underpaid employees" />
+          {/* <StatListItem value="2" label="Underpaid employees" />
           <StatListItem value="1" label="Placated clients" />
-          <StatListItem value="$0" label="Funding" />
+          <StatListItem value="$0" label="Funding" /> */}
         </StatList>
       </Container>
 
@@ -219,7 +219,7 @@ export default async function About() {
       <PageLinks
         className="mt-24 sm:mt-32 lg:mt-40"
         title="From the blog"
-        intro="Our team of experienced designers and developers has just one thing on their mind; working on your ideas to draw a smile on the face of your users worldwide. From conducting Brand Sprints to UX Design."
+        intro="The Financial Literacy Program is designed to prepare our Re-Integration Community for the various economic pressures ever-present in today’s world. Content is prepared and developed to give each participant a better understanding in concepts such as goal planning, healthy habit formation, basics of business incorporation, household financial responsibility, macro economic foundations, budgeting and forecasting, plus other select accounting topics."
         pages={blogArticles}
       />
 

@@ -14,9 +14,8 @@ import { unifiedConditional } from 'unified-conditional'
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
-  output: 'export',
-  basePath: process.env.NODE_ENV === 'production' ? '/Project-TinT' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/Project-TinT' : '',
+
+  
 }
 
 function remarkMDXLayout(source, metaName) {

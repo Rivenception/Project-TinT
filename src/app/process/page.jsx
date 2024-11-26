@@ -43,15 +43,14 @@ function Section({ title, image, children }) {
   )
 }
 
-function Discover() {
+function Empower() {
   return (
-    <Section title="Discover" image={{ src: imageWhiteboard }}>
+    <Section title="Empower" image={{ src: imageWhiteboard }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          We work closely with our clients to understand their{' '}
-          <strong className="font-semibold text-neutral-950">needs</strong> and
-          goals, embedding ourselves in their every day operations to understand
-          what makes their business tick.
+          Equip individuals with <strong className="font-semibold text-neutral-950">foundational</strong>{' '} 
+          financial knowledge and essential skills, enabling them to understand key financial concepts such as 
+          budgeting, saving, and managing debt.
         </p>
         <p>
           Our team of private investigators shadow the company director’s for
@@ -73,20 +72,18 @@ function Discover() {
         Included in this phase
       </h3>
       <TagList className="mt-4">
-        <TagListItem>In-depth questionnaires</TagListItem>
-        <TagListItem>Feasibility studies</TagListItem>
-        <TagListItem>Blood samples</TagListItem>
-        <TagListItem>Employee surveys</TagListItem>
         <TagListItem>Proofs-of-concept</TagListItem>
-        <TagListItem>Forensic audit</TagListItem>
+        <TagListItem>Financial Literacy 1</TagListItem>
+        <TagListItem>Income vs. Expenses</TagListItem>
+        <TagListItem>Budget</TagListItem>
       </TagList>
     </Section>
   )
 }
 
-function Build() {
+function Transform() {
   return (
-    <Section title="Build" image={{ src: imageLaptop, shape: 1 }}>
+    <Section title="Transform" image={{ src: imageLaptop, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           Based off of the discovery phase, we develop a comprehensive roadmap
@@ -110,19 +107,18 @@ function Build() {
       </div>
 
       <Blockquote
-        author={{ name: 'Debra Fiscal', role: 'CEO of Unseal' }}
+        author={{ name: 'Warren Buffet', role: 'Chairman/CEO of Berkshire Hathaway' }}
         className="mt-12"
       >
-        Studio were so regular with their progress updates we almost began to
-        think they were automated!
+        The best investment you can make is in yourself. The more you learn, the more you earn.
       </Blockquote>
     </Section>
   )
 }
 
-function Deliver() {
+function Thrive() {
   return (
-    <Section title="Deliver" image={{ src: imageMeeting, shape: 2 }}>
+    <Section title="Thrive" image={{ src: imageMeeting, shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           About halfway through the Build phase, we push each project out by 6
@@ -247,9 +243,9 @@ export default function Process() {
       </PageIntro>
 
       <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32 lg:mt-40 lg:space-y-40">
-        <Discover />
-        <Build />
-        <Deliver />
+        <Empower />
+        <Transform />
+        <Thrive />
       </div>
 
       <Values />
