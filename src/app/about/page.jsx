@@ -55,16 +55,6 @@ const team = [
         role: 'Founder / CEO',
         image: { src: imageDeanRobert },
       },
-      // {
-      //   name: 'Michael Foster',
-      //   role: 'Co-Founder / CTO',
-      //   image: { src: imageMichaelFoster },
-      // },
-      // {
-      //   name: 'Dries Vincent',
-      //   role: 'Partner & Business Relations',
-      //   image: { src: imageDriesVincent },
-      // },
     ],
   },
   {
@@ -80,41 +70,6 @@ const team = [
         role: 'Senior Designer / Product Manager',
         image: { src: imageCoryLoftis },
       },
-      // {
-      //   name: 'Leonard Krasner',
-      //   role: 'VP, User Experience',
-      //   image: { src: imageLeonardKrasner },
-      // },
-      // {
-      //   name: 'Blake Reid',
-      //   role: 'Junior Copywriter',
-      //   image: { src: imageBlakeReid },
-      // },
-      // {
-      //   name: 'Kathryn Murphy',
-      //   role: 'VP, Human Resources',
-      //   image: { src: imageKathrynMurphy },
-      // },
-      // {
-      //   name: 'Whitney Francis',
-      //   role: 'Content Specialist',
-      //   image: { src: imageWhitneyFrancis },
-      // },
-      // {
-      //   name: 'Jeffrey Webb',
-      //   role: 'Account Coordinator',
-      //   image: { src: imageJeffreyWebb },
-      // },
-      // {
-      //   name: 'Benjamin Russel',
-      //   role: 'Senior Developer',
-      //   image: { src: imageBenjaminRussel },
-      // },
-      // {
-      //   name: 'Angela Fisher',
-      //   role: 'Front-end Developer',
-      //   image: { src: imageAngelaFisher },
-      // },
     ],
   },
 ]
@@ -186,14 +141,14 @@ export default async function About() {
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-          Project: Time In Trenches was founded on the belief that everyone deserves the opportunity to rebuild 
-          and reclaim their future. We recognize the profound gap between incarcerated individuals and their 
-          successful reintegration into society, and are committed to bridging that divide. Through financial 
-          literacy, rehabilitation programs, and goal-setting initiatives, we empower formerly incarcerated 
-          individuals with the tools they need to develop strong, lasting habits and build a foundation for 
-          responsible, productive lives. Our mission is to transform lives by fostering the skills and mindset 
-          necessary for these individuals to become valuable, contributing members of their communities. 
-          At Project: Time In Trenches, we don’t just help people survive life after prison—we help them thrive.
+            Project: Time In Trenches was founded on the belief that everyone deserves the opportunity to rebuild 
+            and reclaim their future. We recognize the profound gap between incarcerated individuals and their 
+            successful reintegration into society, and are committed to bridging that divide. Through financial 
+            literacy, rehabilitation programs, and goal-setting initiatives, we empower formerly incarcerated 
+            individuals with the tools they need to develop strong, lasting habits and build a foundation for 
+            responsible, productive lives. Our mission is to transform lives by fostering the skills and mindset 
+            necessary for these individuals to become valuable, contributing members of their communities. 
+            At Project: Time In Trenches, we don’t just help people survive life after prison—we help them thrive.
           </p>
           <p>
             At Project: Time In Trenches, we’re more than just colleagues — we’re a family. This

@@ -49,33 +49,13 @@ function DribbbleIcon(props) {
   )
 }
 
-
-function LinkedInIconBlack(props) {
-  return (
-    <svg 
-      xmlns="http://www.w3.org/2000/svg" 
-      shapeRendering="geometricPrecision" 
-      textRendering="geometricPrecision" 
-      imageRendering="optimizeQuality" 
-      viewBox="0 0 512 509.64" aria-hidden="true" {...props}>
-    <path
-      fillRule="evenodd" 
-      clipRule="evenodd"  
-      fill="#fff"
-      d="M204.97 197.54h64.69v33.16h.94c9.01-16.16 31.04-33.16 63.89-33.16 68.31 0 80.94 42.51 80.94 97.81v116.92h-67.46l-.01-104.13c0-23.81-.49-54.45-35.08-54.45-35.12 0-40.51 25.91-40.51 52.72v105.86h-67.4V197.54zm-38.23-65.09c0 19.36-15.72 35.08-35.08 35.08-19.37 0-35.09-15.72-35.09-35.08 0-19.37 15.72-35.08 35.09-35.08 19.36 0 35.08 15.71 35.08 35.08zm-70.17 65.09h70.17v214.73H96.57V197.54z"
-    />
-    </svg>
-  )
-}
-
-function LinkedInIconWhite(props) {
+function LinkedInIcon(props) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" shapeRendering="geometricPrecision" textRendering="geometricPrecision" imageRendering="optimizeQuality" 
       fillRule="evenodd" 
       clipRule="evenodd" 
-      viewBox="0 0 512 512" {...props}>
+      viewBox="0 0 512 512" aria-hidden="true" {...props}>
     <path 
-      fill="#fff" 
       d="M474.919 0H38.592C17.72 0 0 16.504 0 36.841V475.14C0 495.496 11.629 512 32.492 512h436.327C489.718 512 512 495.496 512 475.14V36.841C512 16.504 495.809 0 474.919 0zM195.043 195.043h68.928v35.136h.755c10.505-18.945 41.541-38.177 79.921-38.177 73.655 0 94.214 39.108 94.214 111.538v135.321h-73.148V316.883c0-32.427-12.947-60.883-43.227-60.883-36.768 0-54.295 24.889-54.295 65.758v117.103h-73.148V195.043zM73.139 438.861h73.148V195.043H73.139v243.818zm82.289-329.148c0 25.258-20.457 45.715-45.715 45.715-25.258 0-45.715-20.457-45.715-45.715 0-25.258 20.457-45.715 45.715-45.715 25.258 0 45.715 20.457 45.715 45.715z"/>
     </svg>
   )
@@ -100,7 +80,7 @@ function XIcon(props) {
 
 
 export const socialMediaProfiles = [
-  { title: 'LinkedIn', href: 'https://linkedin.com', icon: LinkedInIconWhite },
+  { title: 'LinkedIn', href: 'https://linkedin.com', icon: LinkedInIcon },
   { title: 'Facebook', href: 'https://facebook.com', icon: FacebookIcon },
   { title: 'Instagram', href: 'https://instagram.com', icon: InstagramIcon },
   { title: 'X', href: 'https://x.com', icon: XIcon },

@@ -9,9 +9,10 @@ import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StylizedImage } from '@/components/StylizedImage'
 import { TagList, TagListItem } from '@/components/TagList'
-import imageLaptop from '@/images/laptop.jpg'
 import imageMeeting from '@/images/meeting.jpg'
-import imageWhiteboard from '@/images/whiteboard.jpg'
+import imageEmpower from '@/images/empower.jpg'
+import imageTransform from '@/images/transform.jpg'
+import imageThrive from '@/images/thrive.jpg'
 
 function Section({ title, image, children }) {
   return (
@@ -45,26 +46,25 @@ function Section({ title, image, children }) {
 
 function Empower() {
   return (
-    <Section title="Empower" image={{ src: imageWhiteboard }}>
+    <Section title="Empower" image={{ src: imageEmpower }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          Equip individuals with <strong className="font-semibold text-neutral-950">foundational</strong>{' '} 
+          We equip individuals with <strong className="font-semibold text-neutral-950">foundational</strong>{' '} 
           financial knowledge and essential skills, enabling them to understand key financial concepts such as 
           budgeting, saving, and managing debt.
         </p>
         <p>
-          Our team of private investigators shadow the company director’s for
-          several weeks while our account managers focus on going through their
-          trash. Our senior security experts then perform social engineering
-          hacks to gain access to their{' '}
-          <strong className="font-semibold text-neutral-950">business</strong>{' '}
-          accounts — handing that information over to our forensic accounting
-          team.
+
+          By mastering these skills, individuals begin to shift their mindset, viewing money not just as a resource, 
+          but as a tool for achieving <strong className="font-semibold text-neutral-950">stability</strong>{' '}
+          and growth. This rewiring fosters a proactive approach to financial decision-making, helping them 
+          prioritize <strong className="font-semibold text-neutral-950">long-term goals</strong>{' '} over impulsive spending. 
         </p>
         <p>
-          Once the full audit is complete, we report back with a comprehensive{' '}
-          <strong className="font-semibold text-neutral-950">plan</strong> and,
-          more importantly, a budget.
+          As they gain confidence in managing their finances, they build habits that support {' '}
+          <strong className="font-semibold text-neutral-950">resilience</strong>{' '} in the face of economic challenges. 
+          Ultimately, this transformed perspective lays the groundwork for sustainable financial well-being and positions them for greater 
+          success in both personal and professional endeavors as contributing citizens.
         </p>
       </div>
 
@@ -72,10 +72,12 @@ function Empower() {
         Included in this phase
       </h3>
       <TagList className="mt-4">
-        <TagListItem>Proofs-of-concept</TagListItem>
         <TagListItem>Financial Literacy 1</TagListItem>
-        <TagListItem>Income vs. Expenses</TagListItem>
-        <TagListItem>Budget</TagListItem>
+        <TagListItem>Financial Literacy 2</TagListItem>
+        <TagListItem>Budgeting</TagListItem>
+        <TagListItem>Credit Repair</TagListItem>
+        <TagListItem>Smart Loans</TagListItem>
+        <TagListItem>Financial Goal Setting</TagListItem>
       </TagList>
     </Section>
   )
@@ -83,69 +85,63 @@ function Empower() {
 
 function Transform() {
   return (
-    <Section title="Transform" image={{ src: imageLaptop, shape: 1 }}>
+    <Section title="Transform" image={{ src: imageTransform, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          Based off of the discovery phase, we develop a comprehensive roadmap
-          for each product and start working towards delivery. The roadmap is an
-          intricately tangled mess of technical nonsense designed to drag the
-          project out as long as possible.
+          Based off of the empower phase, we encourage participants to apply this knowledge in practical ways, 
+          helping them bridge the gap between theory and real-world financial decision-making, and fostering 
+          personal growth through tailored experiences.
         </p>
-        <p>
-          Each client is assigned a key account manager to keep lines of
-          communication open and obscure the actual progress of the project.
-          They act as a buffer between the client’s incessant nagging and the
-          development team who are hard at work scouring open source projects
-          for code to re-purpose.
-        </p>
-        <p>
-          Our account managers are trained to only reply to client emails after
-          9pm, several days after the initial email. This reinforces the general
-          aura that we are very busy and dissuades clients from asking for
-          changes.
-        </p>
-      </div>
 
       <Blockquote
         author={{ name: 'Warren Buffet', role: 'Chairman/CEO of Berkshire Hathaway' }}
-        className="mt-12"
-      >
+        className="mt-12">
         The best investment you can make is in yourself. The more you learn, the more you earn.
       </Blockquote>
+
+        <p>
+          We equip our clients with a comprehensive toolkit and a solid foundation designed to transform 
+          their aspirations of small business ownership into a tangible reality. By fostering deep, 
+          thoughtful exploration, we empower them to meticulously evaluate their business ideas, refine their goals, 
+          and determine the viability and potential success of their ventures.
+        </p>
+      </div>
+
+      <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
+        Included in this phase
+      </h3>
+      <TagList className="mt-4">
+        <TagListItem>Financial Literacy 3</TagListItem>
+        <TagListItem>Business Proposals</TagListItem>
+        <TagListItem>Case Studies</TagListItem>
+        <TagListItem>Strategic Pillars</TagListItem>
+        <TagListItem>Vision Statement</TagListItem>
+        <TagListItem>Mission Statement</TagListItem>
+      </TagList>
     </Section>
   )
 }
 
 function Thrive() {
   return (
-    <Section title="Thrive" image={{ src: imageMeeting, shape: 2 }}>
+    <Section title="Thrive" image={{ src: imageThrive, shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          About halfway through the Build phase, we push each project out by 6
-          weeks due to a change in{' '}
-          <strong className="font-semibold text-neutral-950">
-            requirements
-          </strong>
-          . This allows us to increase the budget a final time before launch.
+          This step in our process focuses on creating long-term success focused on two primary pillars: {' '}
+          <strong className="font-semibold text-neutral-950">Small Business Council</strong>{' '} and{' '}
+          <strong className="font-semibold text-neutral-950">Community Accoutability</strong>.
         </p>
         <p>
-          Despite largely using pre-built components, most of the{' '}
-          <strong className="font-semibold text-neutral-950">progress</strong>{' '}
-          on each project takes place in the final 24 hours. The development
-          time allocated to each client is actually spent making augmented
-          reality demos that go viral on social media.
+          The Small Business Council serves as a collaborative network where current and former inmates can take on the role of local entrepreneurs, 
+          business owners, and community leaders coming together to apply the skills learned and share resources, knowledge, and best practices. 
+          Through regular meetings, workshops, and access to valuable resources, the council provides a platform for clients to grow 
+          collectively while learning how to strategize and advocate for policies that support their interests.
         </p>
         <p>
-          We ensure that the main pages of the site are{' '}
-          <strong className="font-semibold text-neutral-950">
-            fully functional
-          </strong>{' '}
-          at launch — the auxiliary pages will, of course, be lorem ipusm shells
-          which get updated as part of our exorbitant{' '}
-          <strong className="font-semibold text-neutral-950">
-            maintenance
-          </strong>{' '}
-          retainer.
+          At the same time, <strong className="font-semibold text-neutral-950">Community Accoutability</strong>{' '} emphasizes the collective 
+          responsibility of businesses and residents to contribute to the well-being and growth of the local community. By aligning business goals 
+          with community values, we create an ecosystem where success is shared and establish a healthy mindset for project participants with regard
+          to financial responsibility and good citizenship.
         </p>
       </div>
 
@@ -153,19 +149,27 @@ function Thrive() {
         Included in this phase
       </h3>
       <List className="mt-8">
-        <ListItem title="Testing">
-          Our projects always have 100% test coverage, which would be impressive
-          if our tests weren’t as porous as a sieve.
+        <ListItem title="Small Business Council">
+            A simulated small business council provides a platform for participants to collaboratively address real-world business challenges, 
+            make strategic decisions, and develop leadership skills in a controlled, educational setting.
         </ListItem>
-        <ListItem title="Infrastructure">
-          To ensure reliability we only use the best Digital Ocean droplets that
-          $4 a month can buy.
-        </ListItem>
-        <ListItem title="Support">
-          Because we hold the API keys for every critical service your business
-          uses, you can expect a lifetime of support, and invoices, from us.
+        <ListItem title="Research and Discussion">
+            Participants research news articles and current affairs to be brought to the group and discuss business and community impacts
+            on a bi-weekly schedule.
         </ListItem>
       </List>
+      <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
+        Discussion Topics
+      </h3>
+      <TagList className="mt-4">
+        <TagListItem>Market Analysis</TagListItem>
+        <TagListItem>Regulatory Compliance</TagListItem>
+        <TagListItem>Risk Management</TagListItem>
+        <TagListItem>Workforce Development</TagListItem>
+        <TagListItem>Technology Integration</TagListItem>
+        <TagListItem>Forecasting</TagListItem>
+      </TagList>
+
     </Section>
   )
 }
@@ -182,42 +186,45 @@ function Values() {
 
       <SectionIntro
         eyebrow="Our values"
-        title="Balancing reliability and innovation"
+        title="Highly Effective Advocacy and Proactive Community Impact"
       >
         <p>
-          We strive to stay at the forefront of emerging trends and
-          technologies, while completely ignoring them and forking that old
-          Rails project we feel comfortable using. We stand by our core values
-          to justify that decision.
+          Project Time in Trenches engages with some of our most vulnerable population in
+          our Connecticut communities, first and second offenders engaged in criminal
+          prosecution. Our vision is to provide foundational behavioral support on a timely
+          basis while creating community service opportunities for marginalized individuals.
         </p>
       </SectionIntro>
 
       <Container className="mt-24">
         <GridList>
-          <GridListItem title="Meticulous">
-            The first part of any partnership is getting our designer to put
-            your logo in our template. The second step is getting them to do the
-            colors.
+          <GridListItem title="Trust">
+            Our partnerships with Clients and State and local
+            officials are grounded by trust that our mission is to reduce
+            crime in our great state.
           </GridListItem>
-          <GridListItem title="Efficient">
-            We pride ourselves on never missing a deadline which is easy because
-            most of the work was done years ago.
+          <GridListItem title="Respect">
+            Regardless of a client’s background, we provide a place
+            of mutual respect for a personal situation no matter what.
           </GridListItem>
-          <GridListItem title="Adaptable">
-            Every business has unique needs and our greatest challenge is
-            shoe-horning those needs into something we already built.
+          <GridListItem title="Advocacy">
+            Our Executive Team works closely with public
+            defenders and prosecutors across New Haven and
+            Bridgeport providing data supporting reduction in repeat
+            offenses
           </GridListItem>
-          <GridListItem title="Honest">
-            We are transparent about all of our processes, banking on the simple
-            fact our clients never actually read anything.
+          <GridListItem title="Benevolence">
+            We stand with our communities giving back a safer
+            place to raise our families, own a business or simply enjoy the
+            surroundings.
           </GridListItem>
-          <GridListItem title="Loyal">
-            We foster long-term relationships with our clients that go beyond
-            just delivering a product, allowing us to invoice them for decades.
+          <GridListItem title="Leadership">
+            Our Executive Team is focused on advocating within
+            the criminal justice system. 
           </GridListItem>
-          <GridListItem title="Innovative">
-            The technological landscape is always evolving and so are we. We are
-            constantly on the lookout for new open source projects to clone.
+          <GridListItem title="Integrity & Fairness">
+            We strive to maintain positive outcomes
+            through our programming, we are transparent at all costs.
           </GridListItem>
         </GridList>
       </Container>
